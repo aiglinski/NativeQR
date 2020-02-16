@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import {Input} from 'react-native-elements';
 import {Text, View, StyleSheet} from 'react-native';
 import Form4u from 'react-native-form4u';
-import fields from './formFields.js';
 
 const Login = () => {
   const onSubmit = () => {
@@ -37,6 +36,7 @@ const Login = () => {
       {
         name: 'signInButton',
         label: 'Sign In',
+        color: '#0096ff',
         type: 'button',
       },
     ],

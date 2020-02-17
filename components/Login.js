@@ -44,7 +44,12 @@ const Login = () => {
   return (
     <View style={styles.container}>
       <View style={styles.inner}>
-        <Form4u formFields={formFields} handleSubmit={onSubmit} submitOnDirty />
+        <Form4u
+          formFields={formFields}
+          style={styles.input}
+          handleSubmit={onSubmit}
+          submitOnDirty
+        />
       </View>
     </View>
   );
